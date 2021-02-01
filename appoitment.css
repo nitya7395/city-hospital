@@ -1,0 +1,51 @@
+@media only screen and (max-width:767px){  
+table{
+    display: block;
+    overflow-x:auto;
+    white-space:nowrap; 
+}
+}
+
+th {
+  background: rgb(81, 160, 197);
+  color: #fff;
+}
+
+.pagination .active a, .pagination .active a:focus, .pagination .active a:hover, .pagination .active span, .pagination .active span:focus, .pagination .active span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.pagination li a, .pagination li span {
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.header_wrap {
+  padding: 0px;
+}
+.num_rows {
+  width: 20%;
+  float:left;
+}
+.tb_search{
+  width: 25%;
+  float:right;
+}
+.pagination-container {
+  width: 70%;
+  float:left;
+}
+
+.rows_count {
+  width: 40%;
+  float:right;
+  text-align:right;
+  color: rgb(119, 123, 128);
+}
